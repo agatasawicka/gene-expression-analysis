@@ -62,7 +62,7 @@ input file: the notebook expects the supplied feature subset and layout.
 3. Search for this repository and open
    `Gene_Expression_Analysis_Project.ipynb`.
 4. Run the notebook from the first cell.
-5. Upload the prepared `**GDS3713-small.csv**` when prompted.
+5. Upload the prepared `GDS3713-small.csv` when prompted.
 6. Run the remaining cells in order.
 
 If a required package is unavailable, install the packages listed in
@@ -90,7 +90,7 @@ in order.
   correction.
 - No adjustment for potential confounding variables.
 - Fold-change interpretation depends on the input expression scale.
-- Variance and standard deviation use `**ddof=0**`.
+- Variance and standard deviation use `ddof=0`.
 - The sample-level heatmap shows a limited number of samples per group
   and does not perform clustering.
 - The procedure used to select the supplied 3,000-feature subset is

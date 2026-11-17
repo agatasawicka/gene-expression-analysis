@@ -22,8 +22,11 @@ token.json
 .DS_Store
 Thumbs.db
 
-# Keep datasets out until sharing has been reviewed
+# Ignore other local data files, but keep the documented input dataset
 data/*.csv
 data/*.tsv
 data/*.xlsx
 GDS3713-small.csv
+
+# Allow the input CSV included with this project
+!data/GDS3713-small.csv

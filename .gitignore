@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+client_secrets.json
+credentials.json
+token.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Keep datasets out until sharing has been reviewed
+data/*.csv
+data/*.tsv
+data/*.xlsx
+GDS3713-small.csv

@@ -110,8 +110,9 @@ unless you also update the reader.
 - Avoid opening and resaving the source CSV through spreadsheet software
 without checking that numeric values and the file layout are preserved.
 
+## Attribution and licensing
 
-## License
+The dataset is third-party material. See the source and citation
+section above for its origin and attribution.
 
-The repository's code license applies to the analysis code only.
-It does not grant additional rights to the third-party dataset.
+No additional rights to the dataset are granted by this repository.
